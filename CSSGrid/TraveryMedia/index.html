@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            gap: 1em;
+        }
+
+        .wrapper > div {
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, asperiores similique dolor animi necessitatibus officia tempora ab quasi quibusdam fugit, cum esse. Ipsam rerum fugit ipsa quidem ad earum eligendi, nostrum aliquid modi fuga. Quae libero quos nobis quod possimus deleniti voluptatum voluptate quam commodi adipisci optio animi quaerat dignissimos, asperiores voluptatem in reiciendis voluptas ad minima recusandae temporibus eum. In repellat excepturi, deleniti explicabo recusandae saepe debitis eius amet.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima neque tenetur dolorum qui! Natus iure, maxime odit ipsa commodi delectus. Facilis fuga numquam doloremque corporis explicabo maiores harum sequi distinctio!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, asperiores similique dolor animi necessitatibus officia tempora ab quasi quibusdam fugit, cum esse. Ipsam rerum fugit ipsa quidem ad earum eligendi, nostrum aliquid modi fuga. Quae libero quos nobis quod possimus deleniti voluptatum voluptate quam commodi adipisci optio animi quaerat dignissimos, asperiores voluptatem in reiciendis voluptas ad minima recusandae temporibus eum. In repellat excepturi, deleniti explicabo recusandae saepe debitis eius amet.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima neque tenetur dolorum qui! Natus iure, maxime odit ipsa commodi delectus. Facilis fuga numquam doloremque corporis explicabo maiores harum sequi distinctio!
+        </div>
+    </div>
+</body>
+</html>

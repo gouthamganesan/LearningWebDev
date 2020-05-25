@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2fa2b910e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/simple-lightbox.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>AirPods | Bluetooth earpods</title>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </head>
+  <body id="home">
+    <!-- Main content -->
+
+    <header id="header" class="sticky">
+      <div id="full-header" class="container">
+        <div id="logo-name">
+          <!-- <img src="./img/logo.png" alt="Apple logo" id="header-img" /> -->
+          <img src="./img/logo.svg" alt="Apple logo" />
+          <h1>Apple</h1>
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#showcase" class="nav-link">Showcase</a></li>
+            <li><a href="#section3" class="nav-link">Section 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="product-title" class="container">
+      <h1>Apple Airpods</h1>
+      <h4>Experience music like never before</h4>
+    </section>
+
+    <!-- Showcase -->
+
+    <section id="showcase">
+      <div>
+        <div id="showcase-1" class="container">
+          <div class="showcase-text">
+            <h1>Magic runs in the family.</h1>
+            <p>
+              AirPods deliver effortless, all-day audio on the go. And AirPods
+              Pro bring Active Noise Cancellation to an in-ear headphone — with
+              a customisable fit.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="showcase-img">
+            <img src="./img/showcase1.png" alt="Airpod Showcase Image" />
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div id="showcase-2" class="container">
+          <div class="showcase-text">
+            <h1>More magical than ever.</h1>
+            <p>
+              Now with more talk time, voice-activated Siri access — and a
+              wireless charging case — AirPods deliver an unparalleled wireless
+              headphone experience. Simply take them out and they’re ready to
+              use with all your devices. Put them in your ears and they connect
+              immediately, immersing you in rich, high-quality sound. Just like
+              magic.
+            </p>
+            <a href="#" class="btn">Watch the film</a>
+            <!-- TODO: Attach the video link in above anchor so that when they click here, it scrolls down -->
+            <!-- TODO: Also change the color of the text in anchor and add a font awesome movie icon -->
+          </div>
+          <div class="showcase-img">
+            <img src="./img/showcase2.png" alt="Airpod Showcase Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TODO: Place a video full screen here -->
+
+    <!-- TODO: Insert all the pictures and make the simple light box work -->
+
+    <!-- TODO: Create a footer and have the form in there at last -->
+
+    <footer class="container">
+      
+    </footer>
+    <!-- Simple-Lightbox -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+          const $gallery = $(.'gallery a').simpleLightbox();
+      })
+    </script>
+  </body>
+</html>
